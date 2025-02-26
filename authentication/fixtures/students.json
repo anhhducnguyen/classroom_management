@@ -1,0 +1,602 @@
+[
+    {
+        "model": "authentication.Student",
+        "pk": 1,
+        "fields": {
+            "full_name": "Lan Vũ",
+            "address": "04 Hoàng Khu\nJohnHuyện, 395897",
+            "birth_date": "2015-01-29",
+            "current_school": "Lê Doanh nghiệp tư nhân",
+            "parent_info": "Ngọc Lê - (00)813-1878",
+            "student_code": "HS0001"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 2,
+        "fields": {
+            "full_name": "Hạnh Đức Nguyễn",
+            "address": "4 Đặng Khu\nThị xã JohnQuận, 631772",
+            "birth_date": "2016-09-07",
+            "current_school": "Đặng Nguyễn Tập Đoàn",
+            "parent_info": "Hồng Lê - 01 8534 9540",
+            "student_code": "HS0002"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 3,
+        "fields": {
+            "full_name": "Thành Quang Dương",
+            "address": "09 Hoàng Hẻm\nHuyện JaneXã, 431428",
+            "birth_date": "2014-11-28",
+            "current_school": "Bùi Lê Tập Đoàn",
+            "parent_info": "Phúc Trần - +84 43 0823568",
+            "student_code": "HS0003"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 4,
+        "fields": {
+            "full_name": "Nhật Hải Đặng",
+            "address": "311 Jane Ngõ\nJaneQuận, 585512",
+            "birth_date": "2016-09-25",
+            "current_school": "Phạm và đối tác Công ty TNHH",
+            "parent_info": "Anh Văn Đặng - +84 80 0120941",
+            "student_code": "HS0004"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 5,
+        "fields": {
+            "full_name": "Linh Nguyễn",
+            "address": "8 Vũ Hẻm\nJohnXã, 490878",
+            "birth_date": "2006-12-26",
+            "current_school": "Dương Doanh nghiệp tư nhân",
+            "parent_info": "Nam Mai - (03)302-6690",
+            "student_code": "HS0005"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 6,
+        "fields": {
+            "full_name": "Quý ông Châu Mai",
+            "address": "2 Hoàng Dãy\nQuận JaneThị xã, 635219",
+            "birth_date": "2007-09-18",
+            "current_school": "Mai và Lê Công ty Hợp danh",
+            "parent_info": "Hoàng Mai - (01)515-7680",
+            "student_code": "HS0006"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 7,
+        "fields": {
+            "full_name": "Yến Vũ",
+            "address": "624 Hoàng Ngõ\nThị xã JohnHuyện, 395148",
+            "birth_date": "2018-11-19",
+            "current_school": "Vũ Tập Đoàn",
+            "parent_info": "Hoàng Hoàng Vũ - (02)976-5094",
+            "student_code": "HS0007"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 8,
+        "fields": {
+            "full_name": "Cô Hồng Nguyễn",
+            "address": "91 John Số\nJaneThị xã, 330220",
+            "birth_date": "2009-02-08",
+            "current_school": "Bùi và đối tác Công ty Cổ phần",
+            "parent_info": "Cô Hồng Mai - +84-17-835813",
+            "student_code": "HS0008"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 9,
+        "fields": {
+            "full_name": "Bà Ánh Phạm",
+            "address": "2 John Hẻm\nThành phố JohnThị xã, 465316",
+            "birth_date": "2006-10-19",
+            "current_school": "Lê và Hoàng Công ty Trách nhiệm hữu hạn",
+            "parent_info": "Hoàng Nguyễn - (00) 4605 0412",
+            "student_code": "HS0009"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 10,
+        "fields": {
+            "full_name": "Nhật Mai Bảo Đặng",
+            "address": "5 John Tổ\nJohnThị xã, 227032",
+            "birth_date": "2011-05-03",
+            "current_school": "Trần và Vũ Công ty Hợp danh",
+            "parent_info": "Trung Hoàng - +84-81-464 9100",
+            "student_code": "HS0010"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 11,
+        "fields": {
+            "full_name": "Nhật Mai Bảo Trần",
+            "address": "5 Lê Ngõ\nJohnThị xã, 765697",
+            "birth_date": "2008-01-01",
+            "current_school": "Dương Công ty Trách nhiệm hữu hạn",
+            "parent_info": "Anh Nam Phạm - 08 2137641",
+            "student_code": "HS0011"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 12,
+        "fields": {
+            "full_name": "Linh Phạm",
+            "address": "252 Đặng Khu\nHuyện JanePhường, 655975",
+            "birth_date": "2014-02-09",
+            "current_school": "Lê và Vũ Công ty Trách nhiệm hữu hạn",
+            "parent_info": "Anh Phúc Phạm - +84-89-667 4193",
+            "student_code": "HS0012"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 13,
+        "fields": {
+            "full_name": "An Xuân Dương",
+            "address": "3 Nguyễn Khu\nJohnThị xã, 789301",
+            "birth_date": "2010-06-21",
+            "current_school": "Phạm và đối tác Công ty TNHH",
+            "parent_info": "Nam Tấn Dương - (08)566-4598",
+            "student_code": "HS0013"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 14,
+        "fields": {
+            "full_name": "Quý cô Linh Dương",
+            "address": "64 Vũ Dãy\nQuận JohnHuyện, 172636",
+            "birth_date": "2012-01-10",
+            "current_school": "Hoàng Công ty TNHH",
+            "parent_info": "Ông Quang Nguyễn - 06 6941 7720",
+            "student_code": "HS0014"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 15,
+        "fields": {
+            "full_name": "Nhật Mai Bảo Bùi",
+            "address": "2 Jane Đường\nThành phố JohnHuyện, 621966",
+            "birth_date": "2017-04-21",
+            "current_school": "Lê và Nguyễn Doanh nghiệp tư nhân",
+            "parent_info": "Bác Anh Mai - 05 7931 3236",
+            "student_code": "HS0015"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 16,
+        "fields": {
+            "full_name": "Anh Trung Lê",
+            "address": "95 John Khu\nJohnQuận, 982142",
+            "birth_date": "2013-08-12",
+            "current_school": "Đặng Công ty TNHH MTV",
+            "parent_info": "Trung Lê - +84 17 5606209",
+            "student_code": "HS0016"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 17,
+        "fields": {
+            "full_name": "Hải Nguyễn",
+            "address": "66 Jane Tổ\nJanePhường, 958365",
+            "birth_date": "2014-08-13",
+            "current_school": "Đặng Trần Công ty Hợp danh",
+            "parent_info": "Tùng Hữu Bùi - +84-70-103 8434",
+            "student_code": "HS0017"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 18,
+        "fields": {
+            "full_name": "Ông Trung Dương",
+            "address": "145 Bùi Đường\nThành phố JohnXã, 361002",
+            "birth_date": "2011-02-27",
+            "current_school": "Dương và đối tác Tập Đoàn",
+            "parent_info": "Bác Bảo Nguyễn - +84-54-601 2077",
+            "student_code": "HS0018"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 19,
+        "fields": {
+            "full_name": "Tùng Đặng",
+            "address": "79 John Tổ\nHuyện JaneXã, 815252",
+            "birth_date": "2013-07-07",
+            "current_school": "Đặng và Vũ Tập Đoàn",
+            "parent_info": "Châu Đặng - 02 2478 3824",
+            "student_code": "HS0019"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 20,
+        "fields": {
+            "full_name": "Hải Thị Nguyễn",
+            "address": "6 Phạm Khu\nQuận JanePhường, 482123",
+            "birth_date": "2009-05-13",
+            "current_school": "Lê Công ty TNHH MTV",
+            "parent_info": "An Nguyễn - 03 4284915",
+            "student_code": "HS0020"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 21,
+        "fields": {
+            "full_name": "Nhật Bùi",
+            "address": "59 Phạm Số\nJohnQuận, 175363",
+            "birth_date": "2016-01-27",
+            "current_school": "Đặng và Hoàng Doanh nghiệp tư nhân",
+            "parent_info": "Thành Vũ - +84-71-610 6488",
+            "student_code": "HS0021"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 22,
+        "fields": {
+            "full_name": "Quang Hoàng",
+            "address": "2 Jane Số\nQuận JohnThành phố, 557344",
+            "birth_date": "2017-02-02",
+            "current_school": "Vũ Công ty Trách nhiệm hữu hạn",
+            "parent_info": "Cô Hạnh Mai - +84-77-923 2052",
+            "student_code": "HS0022"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 23,
+        "fields": {
+            "full_name": "Quý cô Hương Phạm",
+            "address": "2 Đặng Hẻm\nThị xã JaneHuyện, 126764",
+            "birth_date": "2013-09-12",
+            "current_school": "Vũ Tập Đoàn",
+            "parent_info": "Bảo Xuân Bùi - 04 5414 4250",
+            "student_code": "HS0023"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 24,
+        "fields": {
+            "full_name": "Vi Bùi",
+            "address": "0 Jane Đường\nJanePhường, 773497",
+            "birth_date": "2014-10-31",
+            "current_school": "Nguyễn và đối tác Doanh nghiệp tư nhân",
+            "parent_info": "Bác Quang Dương - +84 87 4973162",
+            "student_code": "HS0024"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 25,
+        "fields": {
+            "full_name": "Cô Kim Bùi",
+            "address": "20 Jane Đường\nHuyện JaneThành phố, 460250",
+            "birth_date": "2012-04-05",
+            "current_school": "Nguyễn Công ty Cổ phần",
+            "parent_info": "Cô Hồng Đặng - (03)247-7058",
+            "student_code": "HS0025"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 26,
+        "fields": {
+            "full_name": "Phương Xuân Bùi",
+            "address": "98 John Đường\nHuyện JohnThành phố, 809171",
+            "birth_date": "2017-02-08",
+            "current_school": "Bùi Công ty Trách nhiệm hữu hạn",
+            "parent_info": "Khoa Phạm - (05) 7986 3463",
+            "student_code": "HS0026"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 27,
+        "fields": {
+            "full_name": "Duyên Lê",
+            "address": "5 John Số\nHuyện JanePhường, 648956",
+            "birth_date": "2012-06-17",
+            "current_school": "Phạm Công ty TNHH",
+            "parent_info": "Hải Tấn Hoàng - 01 7693298",
+            "student_code": "HS0027"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 28,
+        "fields": {
+            "full_name": "An Xuân Hoàng",
+            "address": "JohnQuận\n9 Vũ Ngõ, 215797",
+            "birth_date": "2009-07-09",
+            "current_school": "Hoàng Công ty TNHH MTV",
+            "parent_info": "Phúc Dương - 00 9387712",
+            "student_code": "HS0028"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 29,
+        "fields": {
+            "full_name": "Bác Nam Nguyễn",
+            "address": "928 Jane Ngõ\nJohnHuyện, 454071",
+            "birth_date": "2013-02-13",
+            "current_school": "Hoàng và đối tác Công ty TNHH",
+            "parent_info": "Nhiên Đức Đặng - (00) 9779 9649",
+            "student_code": "HS0029"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 30,
+        "fields": {
+            "full_name": "Bà Khoa Mai",
+            "address": "6 John Ngõ\nThành phố JanePhường, 741271",
+            "birth_date": "2019-02-17",
+            "current_school": "Nguyễn Công ty TNHH MTV",
+            "parent_info": "Tùng Quang Nguyễn - +84-76-300209",
+            "student_code": "HS0030"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 31,
+        "fields": {
+            "full_name": "Bảo Quang Bùi",
+            "address": "8 John Tổ\nThành phố JaneThị xã, 702570",
+            "birth_date": "2017-03-31",
+            "current_school": "Đặng và đối tác Doanh nghiệp tư nhân",
+            "parent_info": "Huy Trần - 03 2342 9519",
+            "student_code": "HS0031"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 32,
+        "fields": {
+            "full_name": "Bà Ngọc Đặng",
+            "address": "Thị xã JaneQuận\n865 Jane Đường, 842245",
+            "birth_date": "2013-12-14",
+            "current_school": "Đặng Công ty TNHH",
+            "parent_info": "Linh Nguyễn - (09)055-9860",
+            "student_code": "HS0032"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 33,
+        "fields": {
+            "full_name": "Nam Xuân Trần",
+            "address": "180 Jane Đường\nJaneThị xã, 846647",
+            "birth_date": "2011-09-22",
+            "current_school": "Lê Trần Công ty Hợp danh",
+            "parent_info": "An Phú Phạm - (01) 8820 9539",
+            "student_code": "HS0033"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 34,
+        "fields": {
+            "full_name": "Tú Nguyễn",
+            "address": "181 Bùi Ngõ\nJohnThành phố, 322922",
+            "birth_date": "2006-05-20",
+            "current_school": "Trần Hoàng Công ty TNHH MTV",
+            "parent_info": "Quý ông Phúc Đặng - 00 8615900",
+            "student_code": "HS0034"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 35,
+        "fields": {
+            "full_name": "Nhật Vũ",
+            "address": "3 Jane Hẻm\nQuận JohnXã, 236809",
+            "birth_date": "2007-11-17",
+            "current_school": "Lê Công ty TNHH MTV",
+            "parent_info": "Chị Vân Nguyễn - +84-95-743207",
+            "student_code": "HS0035"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 36,
+        "fields": {
+            "full_name": "Hoàng Đức Bùi",
+            "address": "67 Phạm Số\nJaneThành phố, 763448",
+            "birth_date": "2013-10-26",
+            "current_school": "Phạm và Đặng Công ty Cổ phần",
+            "parent_info": "Bà Duyên Bùi - +84-50-294 5885",
+            "student_code": "HS0036"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 37,
+        "fields": {
+            "full_name": "Quý ông Tùng Vũ",
+            "address": "557 John Làng\nHuyện JohnHuyện, 587369",
+            "birth_date": "2018-05-26",
+            "current_school": "Nguyễn Trần Tập Đoàn",
+            "parent_info": "Quý cô Lâm Mai - +84-94-197 7920",
+            "student_code": "HS0037"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 38,
+        "fields": {
+            "full_name": "Chị Duyên Dương",
+            "address": "4 Mai Tổ\nThị xã JohnQuận, 224705",
+            "birth_date": "2017-09-05",
+            "current_school": "Dương Công ty TNHH",
+            "parent_info": "Trọng Bùi - 03 7787 2428",
+            "student_code": "HS0038"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 39,
+        "fields": {
+            "full_name": "Khoa Vũ",
+            "address": "36 John Hẻm\nQuận JaneThị xã, 304825",
+            "birth_date": "2010-07-04",
+            "current_school": "Lê Phạm Công ty Cổ phần",
+            "parent_info": "Chị Linh Phạm - (00)280-1365",
+            "student_code": "HS0039"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 40,
+        "fields": {
+            "full_name": "Hoàng Nguyễn",
+            "address": "748 Jane Làng\nJaneXã, 817980",
+            "birth_date": "2018-08-12",
+            "current_school": "Bùi và đối tác Công ty TNHH",
+            "parent_info": "Phúc Phạm - +84 92 7471689",
+            "student_code": "HS0040"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 41,
+        "fields": {
+            "full_name": "Linh Nguyễn",
+            "address": "14 John Số\nJohnPhường, 840946",
+            "birth_date": "2010-10-13",
+            "current_school": "Hoàng Công ty Trách nhiệm hữu hạn",
+            "parent_info": "Bà Mai Trần - 07 3447 0304",
+            "student_code": "HS0041"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 42,
+        "fields": {
+            "full_name": "Bác Tùng Bùi",
+            "address": "3 John Số\nQuận JaneXã, 553444",
+            "birth_date": "2015-02-23",
+            "current_school": "Phạm và đối tác Công ty Cổ phần",
+            "parent_info": "Ánh Dương - 05 7072241",
+            "student_code": "HS0042"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 43,
+        "fields": {
+            "full_name": "Chị Hồng Hoàng",
+            "address": "8 Jane Tổ\nJanePhường, 876217",
+            "birth_date": "2009-10-20",
+            "current_school": "Lê Nguyễn Tập Đoàn",
+            "parent_info": "Bà Phương Nguyễn - +84-06-546 5478",
+            "student_code": "HS0043"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 44,
+        "fields": {
+            "full_name": "Anh Xuân Vũ",
+            "address": "774 Phạm Khu\nJaneThị xã, 625225",
+            "birth_date": "2016-11-08",
+            "current_school": "Trần Công ty Hợp danh",
+            "parent_info": "Ông Trọng Hoàng - (06) 6643 5506",
+            "student_code": "HS0044"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 45,
+        "fields": {
+            "full_name": "Nam Nguyễn",
+            "address": "9 Bùi Ngõ\nThị xã JohnHuyện, 114830",
+            "birth_date": "2008-04-01",
+            "current_school": "Bùi và Lê Doanh nghiệp tư nhân",
+            "parent_info": "Quý cô Vi Đặng - 02 1584 4260",
+            "student_code": "HS0045"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 46,
+        "fields": {
+            "full_name": "Quý cô Mai Lê",
+            "address": "56 John Ngõ\nJaneThành phố, 610509",
+            "birth_date": "2008-12-11",
+            "current_school": "Lê Công ty TNHH MTV",
+            "parent_info": "Quý cô Hà Phạm - 07 1053481",
+            "student_code": "HS0046"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 47,
+        "fields": {
+            "full_name": "Chị Lan Hoàng",
+            "address": "303 John Dãy\nThị xã JohnThị xã, 637367",
+            "birth_date": "2013-02-26",
+            "current_school": "Bùi và Lê Công ty TNHH",
+            "parent_info": "Chị Vân Vũ - +84-89-245863",
+            "student_code": "HS0047"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 48,
+        "fields": {
+            "full_name": "Chị Hồng Đặng",
+            "address": "700 Jane Ngõ\nJaneQuận, 894494",
+            "birth_date": "2010-09-18",
+            "current_school": "Hoàng Bùi Tập Đoàn",
+            "parent_info": "Phương Bảo Mai - +84-55-030316",
+            "student_code": "HS0048"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 49,
+        "fields": {
+            "full_name": "An Mai Bảo Trần",
+            "address": "250 Vũ Hẻm\nQuận JaneThị xã, 451136",
+            "birth_date": "2019-01-11",
+            "current_school": "Lê và Lê Công ty Hợp danh",
+            "parent_info": "Bác Quang Đặng - +84-56-501861",
+            "student_code": "HS0049"
+        }
+    },
+    {
+        "model": "authentication.Student",
+        "pk": 50,
+        "fields": {
+            "full_name": "Quý cô Hà Mai",
+            "address": "44 Đặng Số\nHuyện JaneThành phố, 451866",
+            "birth_date": "2007-11-25",
+            "current_school": "Mai Công ty TNHH",
+            "parent_info": "Lâm Tấn Nguyễn - 09 9381055",
+            "student_code": "HS0050"
+        }
+    }
+]

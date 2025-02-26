@@ -1,0 +1,502 @@
+[
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 1,
+        "fields": {
+            "student": 31,
+            "previous_class": 9,
+            "action": "transferred",
+            "date": "2023-02-27"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 2,
+        "fields": {
+            "student": 43,
+            "previous_class": 36,
+            "action": "dropout",
+            "date": "2024-07-04"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 3,
+        "fields": {
+            "student": 35,
+            "previous_class": 20,
+            "action": "dropout",
+            "date": "2024-07-28"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 4,
+        "fields": {
+            "student": 38,
+            "previous_class": 15,
+            "action": "dropout",
+            "date": "2023-02-27"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 5,
+        "fields": {
+            "student": 39,
+            "previous_class": 12,
+            "action": "dropout",
+            "date": "2024-12-01"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 6,
+        "fields": {
+            "student": 27,
+            "previous_class": 49,
+            "action": "dropout",
+            "date": "2024-04-13"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 7,
+        "fields": {
+            "student": 34,
+            "previous_class": 7,
+            "action": "transferred",
+            "date": "2024-08-15"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 8,
+        "fields": {
+            "student": 15,
+            "previous_class": 4,
+            "action": "dropout",
+            "date": "2023-05-04"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 9,
+        "fields": {
+            "student": 17,
+            "previous_class": 19,
+            "action": "transferred",
+            "date": "2024-08-29"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 10,
+        "fields": {
+            "student": 14,
+            "previous_class": 27,
+            "action": "transferred",
+            "date": "2023-05-20"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 11,
+        "fields": {
+            "student": 47,
+            "previous_class": 44,
+            "action": "transferred",
+            "date": "2024-11-15"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 12,
+        "fields": {
+            "student": 10,
+            "previous_class": 28,
+            "action": "transferred",
+            "date": "2023-03-17"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 13,
+        "fields": {
+            "student": 1,
+            "previous_class": 6,
+            "action": "dropout",
+            "date": "2023-04-13"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 14,
+        "fields": {
+            "student": 11,
+            "previous_class": 44,
+            "action": "dropout",
+            "date": "2023-11-01"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 15,
+        "fields": {
+            "student": 26,
+            "previous_class": 21,
+            "action": "transferred",
+            "date": "2023-03-21"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 16,
+        "fields": {
+            "student": 24,
+            "previous_class": 18,
+            "action": "transferred",
+            "date": "2023-11-13"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 17,
+        "fields": {
+            "student": 4,
+            "previous_class": 22,
+            "action": "transferred",
+            "date": "2023-11-08"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 18,
+        "fields": {
+            "student": 38,
+            "previous_class": 48,
+            "action": "dropout",
+            "date": "2024-01-29"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 19,
+        "fields": {
+            "student": 7,
+            "previous_class": 4,
+            "action": "transferred",
+            "date": "2024-12-19"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 20,
+        "fields": {
+            "student": 48,
+            "previous_class": 1,
+            "action": "transferred",
+            "date": "2024-03-15"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 21,
+        "fields": {
+            "student": 4,
+            "previous_class": 23,
+            "action": "transferred",
+            "date": "2025-02-09"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 22,
+        "fields": {
+            "student": 10,
+            "previous_class": 44,
+            "action": "dropout",
+            "date": "2024-09-30"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 23,
+        "fields": {
+            "student": 31,
+            "previous_class": 33,
+            "action": "dropout",
+            "date": "2024-05-01"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 24,
+        "fields": {
+            "student": 11,
+            "previous_class": 39,
+            "action": "dropout",
+            "date": "2023-06-22"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 25,
+        "fields": {
+            "student": 3,
+            "previous_class": 19,
+            "action": "transferred",
+            "date": "2023-06-08"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 26,
+        "fields": {
+            "student": 33,
+            "previous_class": 23,
+            "action": "transferred",
+            "date": "2024-12-11"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 27,
+        "fields": {
+            "student": 48,
+            "previous_class": 11,
+            "action": "transferred",
+            "date": "2024-02-26"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 28,
+        "fields": {
+            "student": 28,
+            "previous_class": 17,
+            "action": "dropout",
+            "date": "2024-12-14"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 29,
+        "fields": {
+            "student": 21,
+            "previous_class": 20,
+            "action": "dropout",
+            "date": "2023-05-01"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 30,
+        "fields": {
+            "student": 25,
+            "previous_class": 10,
+            "action": "dropout",
+            "date": "2023-09-04"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 31,
+        "fields": {
+            "student": 19,
+            "previous_class": 8,
+            "action": "dropout",
+            "date": "2024-06-08"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 32,
+        "fields": {
+            "student": 31,
+            "previous_class": 26,
+            "action": "dropout",
+            "date": "2025-01-20"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 33,
+        "fields": {
+            "student": 22,
+            "previous_class": 40,
+            "action": "transferred",
+            "date": "2023-06-05"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 34,
+        "fields": {
+            "student": 18,
+            "previous_class": 7,
+            "action": "dropout",
+            "date": "2023-02-23"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 35,
+        "fields": {
+            "student": 6,
+            "previous_class": 33,
+            "action": "dropout",
+            "date": "2023-05-18"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 36,
+        "fields": {
+            "student": 50,
+            "previous_class": 45,
+            "action": "dropout",
+            "date": "2025-01-06"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 37,
+        "fields": {
+            "student": 45,
+            "previous_class": 17,
+            "action": "dropout",
+            "date": "2024-10-15"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 38,
+        "fields": {
+            "student": 29,
+            "previous_class": 39,
+            "action": "transferred",
+            "date": "2024-05-12"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 39,
+        "fields": {
+            "student": 8,
+            "previous_class": 2,
+            "action": "transferred",
+            "date": "2023-10-21"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 40,
+        "fields": {
+            "student": 48,
+            "previous_class": 31,
+            "action": "dropout",
+            "date": "2023-04-09"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 41,
+        "fields": {
+            "student": 35,
+            "previous_class": 29,
+            "action": "transferred",
+            "date": "2024-10-30"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 42,
+        "fields": {
+            "student": 34,
+            "previous_class": 42,
+            "action": "transferred",
+            "date": "2023-05-20"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 43,
+        "fields": {
+            "student": 41,
+            "previous_class": 1,
+            "action": "transferred",
+            "date": "2024-02-06"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 44,
+        "fields": {
+            "student": 28,
+            "previous_class": 20,
+            "action": "dropout",
+            "date": "2023-07-13"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 45,
+        "fields": {
+            "student": 11,
+            "previous_class": 2,
+            "action": "transferred",
+            "date": "2023-03-29"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 46,
+        "fields": {
+            "student": 2,
+            "previous_class": 6,
+            "action": "dropout",
+            "date": "2024-09-26"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 47,
+        "fields": {
+            "student": 26,
+            "previous_class": 28,
+            "action": "transferred",
+            "date": "2023-08-07"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 48,
+        "fields": {
+            "student": 8,
+            "previous_class": 35,
+            "action": "dropout",
+            "date": "2023-07-14"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 49,
+        "fields": {
+            "student": 47,
+            "previous_class": 27,
+            "action": "transferred",
+            "date": "2024-01-08"
+        }
+    },
+    {
+        "model": "authentication.StudentHistory",
+        "pk": 50,
+        "fields": {
+            "student": 16,
+            "previous_class": 38,
+            "action": "transferred",
+            "date": "2023-02-24"
+        }
+    }
+]

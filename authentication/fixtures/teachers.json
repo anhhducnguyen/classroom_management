@@ -1,0 +1,552 @@
+[
+    {
+        "model": "authentication.Teacher",
+        "pk": 1,
+        "fields": {
+            "full_name": "Nhật Mai Dương",
+            "address": "56 John Hẻm\nHuyện JohnPhường, 413645",
+            "birth_date": "1986-08-24",
+            "current_school": "Vũ và Phạm Công ty Hợp danh",
+            "teacher_code": "GV0001"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 2,
+        "fields": {
+            "full_name": "Trọng Nguyễn",
+            "address": "4 Jane Dãy\nJohnThành phố, 344532",
+            "birth_date": "1997-06-29",
+            "current_school": "Dương và Phạm Công ty TNHH",
+            "teacher_code": "GV0002"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 3,
+        "fields": {
+            "full_name": "Anh Đức Lê",
+            "address": "4 Jane Đường\nJohnThị xã, 115532",
+            "birth_date": "1984-04-13",
+            "current_school": "Lê Phạm Công ty TNHH MTV",
+            "teacher_code": "GV0003"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 4,
+        "fields": {
+            "full_name": "Kim Hoàng",
+            "address": "346 John Ngõ\nHuyện JohnHuyện, 938379",
+            "birth_date": "1975-03-03",
+            "current_school": "Lê và Trần Công ty TNHH",
+            "teacher_code": "GV0004"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 5,
+        "fields": {
+            "full_name": "Châu Bảo Phạm",
+            "address": "9 Hoàng Số\nThị xã JohnThị xã, 628051",
+            "birth_date": "1990-10-29",
+            "current_school": "Mai Doanh nghiệp tư nhân",
+            "teacher_code": "GV0005"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 6,
+        "fields": {
+            "full_name": "Bà Vân Mai",
+            "address": "72 Jane Hẻm\nJohnPhường, 461582",
+            "birth_date": "1992-09-20",
+            "current_school": "Vũ Công ty TNHH",
+            "teacher_code": "GV0006"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 7,
+        "fields": {
+            "full_name": "Bác Minh Lê",
+            "address": "5 John Dãy\nJaneQuận, 892859",
+            "birth_date": "1976-06-02",
+            "current_school": "Hoàng Công ty Trách nhiệm hữu hạn",
+            "teacher_code": "GV0007"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 8,
+        "fields": {
+            "full_name": "Quang Bùi",
+            "address": "41 John Dãy\nJohnHuyện, 521705",
+            "birth_date": "1975-05-27",
+            "current_school": "Đặng Công ty Hợp danh",
+            "teacher_code": "GV0008"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 9,
+        "fields": {
+            "full_name": "Ông Huy Trần",
+            "address": "52 Trần Đường\nJaneHuyện, 484414",
+            "birth_date": "1991-02-26",
+            "current_school": "Nguyễn và Nguyễn Doanh nghiệp tư nhân",
+            "teacher_code": "GV0009"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 10,
+        "fields": {
+            "full_name": "Hà Thế Bùi",
+            "address": "072 Jane Ngõ\nQuận JohnXã, 946267",
+            "birth_date": "1993-01-15",
+            "current_school": "Hoàng và Phạm Công ty Hợp danh",
+            "teacher_code": "GV0010"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 11,
+        "fields": {
+            "full_name": "Tú Dương",
+            "address": "4 Lê Số\nQuận JohnThành phố, 222303",
+            "birth_date": "1981-11-02",
+            "current_school": "Đặng Công ty Hợp danh",
+            "teacher_code": "GV0011"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 12,
+        "fields": {
+            "full_name": "Vân Mai",
+            "address": "725 Lê Ngõ\nHuyện JohnThị xã, 809807",
+            "birth_date": "1998-07-24",
+            "current_school": "Dương Tập Đoàn",
+            "teacher_code": "GV0012"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 13,
+        "fields": {
+            "full_name": "Nhật Văn Trần",
+            "address": "143 Hoàng Hẻm\nJohnPhường, 971391",
+            "birth_date": "1981-09-26",
+            "current_school": "Đặng và Lê Công ty TNHH",
+            "teacher_code": "GV0013"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 14,
+        "fields": {
+            "full_name": "Phương Lê",
+            "address": "097 Jane Số\nJanePhường, 775207",
+            "birth_date": "1999-11-27",
+            "current_school": "Hoàng Công ty TNHH MTV",
+            "teacher_code": "GV0014"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 15,
+        "fields": {
+            "full_name": "Hà Đức Dương",
+            "address": "4 John Số\nJaneHuyện, 999778",
+            "birth_date": "1973-03-21",
+            "current_school": "Hoàng Doanh nghiệp tư nhân",
+            "teacher_code": "GV0015"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 16,
+        "fields": {
+            "full_name": "Thành Mai Dương",
+            "address": "JanePhường\n7 Dương Dãy, 336727",
+            "birth_date": "1989-02-15",
+            "current_school": "Lê Công ty Cổ phần",
+            "teacher_code": "GV0016"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 17,
+        "fields": {
+            "full_name": "Nhật Trí Lê",
+            "address": "1 Jane Hẻm\nQuận JaneThị xã, 924567",
+            "birth_date": "1991-02-21",
+            "current_school": "Mai Công ty Cổ phần",
+            "teacher_code": "GV0017"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 18,
+        "fields": {
+            "full_name": "Yến Dương",
+            "address": "6 John Khu\nThị xã JaneQuận, 970007",
+            "birth_date": "1983-09-19",
+            "current_school": "Lê và Nguyễn Công ty TNHH",
+            "teacher_code": "GV0018"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 19,
+        "fields": {
+            "full_name": "Cô Kim Vũ",
+            "address": "4 Nguyễn Khu\nThành phố JohnQuận, 824895",
+            "birth_date": "1970-04-14",
+            "current_school": "Nguyễn và đối tác Công ty Cổ phần",
+            "teacher_code": "GV0019"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 20,
+        "fields": {
+            "full_name": "Kim Mai Mai",
+            "address": "4 Jane Khu\nQuận JanePhường, 559592",
+            "birth_date": "1978-12-26",
+            "current_school": "Đặng và đối tác Công ty Cổ phần",
+            "teacher_code": "GV0020"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 21,
+        "fields": {
+            "full_name": "Hồng Trần",
+            "address": "690 Jane Hẻm\nQuận JohnQuận, 754581",
+            "birth_date": "1978-10-08",
+            "current_school": "Mai Vũ Công ty Cổ phần",
+            "teacher_code": "GV0021"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 22,
+        "fields": {
+            "full_name": "Quý ông Phúc Đặng",
+            "address": "4 Nguyễn Đường\nJohnThị xã, 431382",
+            "birth_date": "1983-07-16",
+            "current_school": "Hoàng và đối tác Tập Đoàn",
+            "teacher_code": "GV0022"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 23,
+        "fields": {
+            "full_name": "Chị Duyên Lê",
+            "address": "15 Jane Tổ\nThị xã JaneXã, 807328",
+            "birth_date": "1975-06-30",
+            "current_school": "Trần Công ty Trách nhiệm hữu hạn",
+            "teacher_code": "GV0023"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 24,
+        "fields": {
+            "full_name": "Cô Bảo Hoàng",
+            "address": "2 Jane Hẻm\nQuận JohnPhường, 619346",
+            "birth_date": "1973-07-06",
+            "current_school": "Mai và đối tác Công ty TNHH MTV",
+            "teacher_code": "GV0024"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 25,
+        "fields": {
+            "full_name": "Hồng Vũ",
+            "address": "04 John Số\nThị xã JaneQuận, 856041",
+            "birth_date": "1967-08-16",
+            "current_school": "Hoàng Trần Tập Đoàn",
+            "teacher_code": "GV0025"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 26,
+        "fields": {
+            "full_name": "Tú Phạm",
+            "address": "63 Mai Hẻm\nThị xã JaneThành phố, 441725",
+            "birth_date": "1985-07-24",
+            "current_school": "Dương và đối tác Công ty TNHH MTV",
+            "teacher_code": "GV0026"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 27,
+        "fields": {
+            "full_name": "Hạnh Quang Mai",
+            "address": "5 Jane Đường\nThành phố JaneQuận, 930010",
+            "birth_date": "1970-07-10",
+            "current_school": "Lê và đối tác Công ty Hợp danh",
+            "teacher_code": "GV0027"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 28,
+        "fields": {
+            "full_name": "Cô Vi Hoàng",
+            "address": "475 John Ngõ\nJaneHuyện, 192620",
+            "birth_date": "1964-06-09",
+            "current_school": "Mai Công ty Hợp danh",
+            "teacher_code": "GV0028"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 29,
+        "fields": {
+            "full_name": "Huy Nguyễn",
+            "address": "843 John Tổ\nJohnPhường, 351431",
+            "birth_date": "1967-04-02",
+            "current_school": "Trần Đặng Công ty Hợp danh",
+            "teacher_code": "GV0029"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 30,
+        "fields": {
+            "full_name": "Nhiên Đặng",
+            "address": "96 John Khu\nQuận JaneThị xã, 919190",
+            "birth_date": "1994-12-22",
+            "current_school": "Vũ và Hoàng Công ty TNHH MTV",
+            "teacher_code": "GV0030"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 31,
+        "fields": {
+            "full_name": "Bà Khoa Bùi",
+            "address": "70 Vũ Khu\nJaneXã, 797751",
+            "birth_date": "1980-08-24",
+            "current_school": "Nguyễn Công ty Trách nhiệm hữu hạn",
+            "teacher_code": "GV0031"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 32,
+        "fields": {
+            "full_name": "Phương Đặng",
+            "address": "56 Mai Số\nJaneQuận, 205739",
+            "birth_date": "1980-07-23",
+            "current_school": "Hoàng và Phạm Công ty Cổ phần",
+            "teacher_code": "GV0032"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 33,
+        "fields": {
+            "full_name": "Dũng Phạm",
+            "address": "671 John Dãy\nThị xã JohnXã, 217927",
+            "birth_date": "1983-08-20",
+            "current_school": "Vũ và Phạm Công ty TNHH MTV",
+            "teacher_code": "GV0033"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 34,
+        "fields": {
+            "full_name": "Quý ông Tú Hoàng",
+            "address": "85 John Ngõ\nJohnThị xã, 414280",
+            "birth_date": "1983-05-29",
+            "current_school": "Lê và Mai Công ty TNHH MTV",
+            "teacher_code": "GV0034"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 35,
+        "fields": {
+            "full_name": "Hạnh Quang Phạm",
+            "address": "5 Jane Làng\nJaneQuận, 541705",
+            "birth_date": "1978-03-05",
+            "current_school": "Vũ Tập Đoàn",
+            "teacher_code": "GV0035"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 36,
+        "fields": {
+            "full_name": "Vũ Hữu Mai",
+            "address": "3 Jane Đường\nQuận JohnHuyện, 470855",
+            "birth_date": "1969-01-08",
+            "current_school": "Mai Nguyễn Doanh nghiệp tư nhân",
+            "teacher_code": "GV0036"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 37,
+        "fields": {
+            "full_name": "Bảo Bùi",
+            "address": "048 Jane Số\nJaneThị xã, 939898",
+            "birth_date": "1973-11-11",
+            "current_school": "Hoàng Vũ Công ty Trách nhiệm hữu hạn",
+            "teacher_code": "GV0037"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 38,
+        "fields": {
+            "full_name": "Chị Kim Trần",
+            "address": "5 Đặng Dãy\nThị xã JohnXã, 182587",
+            "birth_date": "1973-10-23",
+            "current_school": "Đặng Tập Đoàn",
+            "teacher_code": "GV0038"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 39,
+        "fields": {
+            "full_name": "Lâm Tấn Phạm",
+            "address": "059 Lê Dãy\nJaneThành phố, 503550",
+            "birth_date": "1993-06-20",
+            "current_school": "Dương và Đặng Công ty Hợp danh",
+            "teacher_code": "GV0039"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 40,
+        "fields": {
+            "full_name": "Linh Lê",
+            "address": "413 John Khu\nHuyện JaneThành phố, 306924",
+            "birth_date": "1987-04-03",
+            "current_school": "Dương Lê Công ty TNHH MTV",
+            "teacher_code": "GV0040"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 41,
+        "fields": {
+            "full_name": "Quý cô Hạnh Đặng",
+            "address": "30 Bùi Số\nQuận JaneXã, 949331",
+            "birth_date": "1977-07-09",
+            "current_school": "Mai Đặng Công ty TNHH MTV",
+            "teacher_code": "GV0041"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 42,
+        "fields": {
+            "full_name": "Cô Hạnh Lê",
+            "address": "Quận JohnXã\n291 Dương Ngõ, 187815",
+            "birth_date": "1982-10-27",
+            "current_school": "Đặng Trần Công ty Trách nhiệm hữu hạn",
+            "teacher_code": "GV0042"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 43,
+        "fields": {
+            "full_name": "Bà Xuân Mai",
+            "address": "0 Jane Ngõ\nJohnPhường, 245208",
+            "birth_date": "1997-06-01",
+            "current_school": "Dương Tập Đoàn",
+            "teacher_code": "GV0043"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 44,
+        "fields": {
+            "full_name": "Nam Nguyễn",
+            "address": "349 Trần Số\nJohnPhường, 525437",
+            "birth_date": "1986-01-29",
+            "current_school": "Trần và đối tác Doanh nghiệp tư nhân",
+            "teacher_code": "GV0044"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 45,
+        "fields": {
+            "full_name": "Quý cô Nhật Lê",
+            "address": "8 Bùi Số\nThành phố JohnThị xã, 450082",
+            "birth_date": "1971-06-19",
+            "current_school": "Vũ Mai Công ty Cổ phần",
+            "teacher_code": "GV0045"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 46,
+        "fields": {
+            "full_name": "Minh Dương",
+            "address": "685 Jane Làng\nHuyện JohnThị xã, 510404",
+            "birth_date": "1982-06-11",
+            "current_school": "Lê Công ty TNHH",
+            "teacher_code": "GV0046"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 47,
+        "fields": {
+            "full_name": "Anh Quang Đặng",
+            "address": "4 Vũ Khu\nThành phố JohnThành phố, 965160",
+            "birth_date": "1979-06-15",
+            "current_school": "Phạm Bùi Công ty TNHH",
+            "teacher_code": "GV0047"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 48,
+        "fields": {
+            "full_name": "Nam Tấn Mai",
+            "address": "8 Lê Dãy\nJaneQuận, 841282",
+            "birth_date": "1993-04-26",
+            "current_school": "Lê và Mai Tập Đoàn",
+            "teacher_code": "GV0048"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 49,
+        "fields": {
+            "full_name": "Hoàng Bùi",
+            "address": "44 Jane Ngõ\nThành phố JohnThành phố, 984036",
+            "birth_date": "1980-07-21",
+            "current_school": "Dương Trần Công ty TNHH",
+            "teacher_code": "GV0049"
+        }
+    },
+    {
+        "model": "authentication.Teacher",
+        "pk": 50,
+        "fields": {
+            "full_name": "Bác Quang Lê",
+            "address": "29 Trần Tổ\nQuận JaneHuyện, 559450",
+            "birth_date": "1975-03-03",
+            "current_school": "Phạm Công ty Hợp danh",
+            "teacher_code": "GV0050"
+        }
+    }
+]

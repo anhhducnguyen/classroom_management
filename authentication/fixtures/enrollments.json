@@ -1,0 +1,552 @@
+[
+    {
+        "model": "authentication.Enrollment",
+        "pk": 1,
+        "fields": {
+            "student": 13,
+            "class_enrolled": 5,
+            "status": "transferred",
+            "enrollment_date": "2024-07-02",
+            "last_update": "2024-04-27"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 2,
+        "fields": {
+            "student": 26,
+            "class_enrolled": 44,
+            "status": "active",
+            "enrollment_date": "2023-10-09",
+            "last_update": "2024-10-21"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 3,
+        "fields": {
+            "student": 9,
+            "class_enrolled": 26,
+            "status": "transferred",
+            "enrollment_date": "2024-10-12",
+            "last_update": "2024-10-16"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 4,
+        "fields": {
+            "student": 42,
+            "class_enrolled": 17,
+            "status": "active",
+            "enrollment_date": "2024-07-30",
+            "last_update": "2025-01-21"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 5,
+        "fields": {
+            "student": 26,
+            "class_enrolled": 10,
+            "status": "dropout",
+            "enrollment_date": "2024-01-21",
+            "last_update": "2024-04-19"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 6,
+        "fields": {
+            "student": 13,
+            "class_enrolled": 18,
+            "status": "transferred",
+            "enrollment_date": "2024-03-13",
+            "last_update": "2024-07-21"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 7,
+        "fields": {
+            "student": 30,
+            "class_enrolled": 11,
+            "status": "transferred",
+            "enrollment_date": "2025-01-13",
+            "last_update": "2024-09-20"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 8,
+        "fields": {
+            "student": 46,
+            "class_enrolled": 47,
+            "status": "dropout",
+            "enrollment_date": "2023-05-20",
+            "last_update": "2024-09-19"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 9,
+        "fields": {
+            "student": 25,
+            "class_enrolled": 45,
+            "status": "transferred",
+            "enrollment_date": "2024-06-08",
+            "last_update": "2024-09-28"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 10,
+        "fields": {
+            "student": 11,
+            "class_enrolled": 12,
+            "status": "transferred",
+            "enrollment_date": "2024-11-05",
+            "last_update": "2024-10-25"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 11,
+        "fields": {
+            "student": 10,
+            "class_enrolled": 37,
+            "status": "transferred",
+            "enrollment_date": "2024-03-04",
+            "last_update": "2024-05-23"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 12,
+        "fields": {
+            "student": 8,
+            "class_enrolled": 50,
+            "status": "transferred",
+            "enrollment_date": "2024-10-16",
+            "last_update": "2024-03-21"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 13,
+        "fields": {
+            "student": 40,
+            "class_enrolled": 9,
+            "status": "dropout",
+            "enrollment_date": "2024-02-16",
+            "last_update": "2025-01-12"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 14,
+        "fields": {
+            "student": 8,
+            "class_enrolled": 45,
+            "status": "dropout",
+            "enrollment_date": "2023-07-01",
+            "last_update": "2024-09-09"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 15,
+        "fields": {
+            "student": 9,
+            "class_enrolled": 32,
+            "status": "dropout",
+            "enrollment_date": "2023-08-21",
+            "last_update": "2024-05-31"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 16,
+        "fields": {
+            "student": 46,
+            "class_enrolled": 22,
+            "status": "transferred",
+            "enrollment_date": "2024-05-21",
+            "last_update": "2024-04-21"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 17,
+        "fields": {
+            "student": 29,
+            "class_enrolled": 26,
+            "status": "dropout",
+            "enrollment_date": "2023-06-29",
+            "last_update": "2024-11-22"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 18,
+        "fields": {
+            "student": 13,
+            "class_enrolled": 43,
+            "status": "dropout",
+            "enrollment_date": "2023-04-29",
+            "last_update": "2024-03-07"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 19,
+        "fields": {
+            "student": 43,
+            "class_enrolled": 37,
+            "status": "dropout",
+            "enrollment_date": "2024-01-16",
+            "last_update": "2024-07-02"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 20,
+        "fields": {
+            "student": 4,
+            "class_enrolled": 38,
+            "status": "dropout",
+            "enrollment_date": "2023-12-06",
+            "last_update": "2024-03-13"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 21,
+        "fields": {
+            "student": 18,
+            "class_enrolled": 21,
+            "status": "transferred",
+            "enrollment_date": "2024-05-13",
+            "last_update": "2024-12-06"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 22,
+        "fields": {
+            "student": 22,
+            "class_enrolled": 50,
+            "status": "transferred",
+            "enrollment_date": "2024-06-09",
+            "last_update": "2024-08-21"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 23,
+        "fields": {
+            "student": 23,
+            "class_enrolled": 22,
+            "status": "active",
+            "enrollment_date": "2024-03-24",
+            "last_update": "2024-08-15"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 24,
+        "fields": {
+            "student": 42,
+            "class_enrolled": 16,
+            "status": "active",
+            "enrollment_date": "2023-02-27",
+            "last_update": "2024-05-24"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 25,
+        "fields": {
+            "student": 2,
+            "class_enrolled": 10,
+            "status": "active",
+            "enrollment_date": "2023-05-22",
+            "last_update": "2024-11-07"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 26,
+        "fields": {
+            "student": 17,
+            "class_enrolled": 25,
+            "status": "transferred",
+            "enrollment_date": "2023-07-17",
+            "last_update": "2024-02-27"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 27,
+        "fields": {
+            "student": 32,
+            "class_enrolled": 46,
+            "status": "active",
+            "enrollment_date": "2023-06-07",
+            "last_update": "2024-04-20"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 28,
+        "fields": {
+            "student": 45,
+            "class_enrolled": 47,
+            "status": "dropout",
+            "enrollment_date": "2023-09-01",
+            "last_update": "2024-08-08"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 29,
+        "fields": {
+            "student": 47,
+            "class_enrolled": 14,
+            "status": "active",
+            "enrollment_date": "2025-01-26",
+            "last_update": "2025-01-19"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 30,
+        "fields": {
+            "student": 27,
+            "class_enrolled": 48,
+            "status": "active",
+            "enrollment_date": "2023-09-28",
+            "last_update": "2024-09-17"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 31,
+        "fields": {
+            "student": 35,
+            "class_enrolled": 13,
+            "status": "transferred",
+            "enrollment_date": "2023-10-06",
+            "last_update": "2024-09-08"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 32,
+        "fields": {
+            "student": 21,
+            "class_enrolled": 18,
+            "status": "active",
+            "enrollment_date": "2024-11-14",
+            "last_update": "2025-02-09"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 33,
+        "fields": {
+            "student": 23,
+            "class_enrolled": 32,
+            "status": "active",
+            "enrollment_date": "2024-02-27",
+            "last_update": "2024-04-28"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 34,
+        "fields": {
+            "student": 47,
+            "class_enrolled": 17,
+            "status": "active",
+            "enrollment_date": "2024-06-18",
+            "last_update": "2024-06-24"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 35,
+        "fields": {
+            "student": 29,
+            "class_enrolled": 12,
+            "status": "dropout",
+            "enrollment_date": "2023-07-26",
+            "last_update": "2024-11-07"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 36,
+        "fields": {
+            "student": 48,
+            "class_enrolled": 1,
+            "status": "active",
+            "enrollment_date": "2023-06-28",
+            "last_update": "2025-02-14"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 37,
+        "fields": {
+            "student": 10,
+            "class_enrolled": 22,
+            "status": "dropout",
+            "enrollment_date": "2023-10-01",
+            "last_update": "2024-04-16"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 38,
+        "fields": {
+            "student": 45,
+            "class_enrolled": 34,
+            "status": "transferred",
+            "enrollment_date": "2023-03-12",
+            "last_update": "2024-09-18"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 39,
+        "fields": {
+            "student": 17,
+            "class_enrolled": 36,
+            "status": "active",
+            "enrollment_date": "2024-11-06",
+            "last_update": "2024-12-19"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 40,
+        "fields": {
+            "student": 21,
+            "class_enrolled": 24,
+            "status": "dropout",
+            "enrollment_date": "2023-07-11",
+            "last_update": "2025-02-13"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 41,
+        "fields": {
+            "student": 27,
+            "class_enrolled": 26,
+            "status": "transferred",
+            "enrollment_date": "2023-10-04",
+            "last_update": "2024-04-09"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 42,
+        "fields": {
+            "student": 31,
+            "class_enrolled": 49,
+            "status": "active",
+            "enrollment_date": "2023-08-02",
+            "last_update": "2024-06-26"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 43,
+        "fields": {
+            "student": 36,
+            "class_enrolled": 5,
+            "status": "dropout",
+            "enrollment_date": "2024-01-02",
+            "last_update": "2024-08-05"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 44,
+        "fields": {
+            "student": 1,
+            "class_enrolled": 42,
+            "status": "transferred",
+            "enrollment_date": "2023-07-09",
+            "last_update": "2024-03-01"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 45,
+        "fields": {
+            "student": 48,
+            "class_enrolled": 9,
+            "status": "active",
+            "enrollment_date": "2024-12-18",
+            "last_update": "2024-07-29"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 46,
+        "fields": {
+            "student": 6,
+            "class_enrolled": 17,
+            "status": "active",
+            "enrollment_date": "2023-05-10",
+            "last_update": "2024-10-25"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 47,
+        "fields": {
+            "student": 39,
+            "class_enrolled": 30,
+            "status": "active",
+            "enrollment_date": "2023-03-26",
+            "last_update": "2025-01-16"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 48,
+        "fields": {
+            "student": 36,
+            "class_enrolled": 19,
+            "status": "dropout",
+            "enrollment_date": "2024-10-18",
+            "last_update": "2024-06-08"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 49,
+        "fields": {
+            "student": 29,
+            "class_enrolled": 9,
+            "status": "transferred",
+            "enrollment_date": "2023-03-09",
+            "last_update": "2025-01-04"
+        }
+    },
+    {
+        "model": "authentication.Enrollment",
+        "pk": 50,
+        "fields": {
+            "student": 33,
+            "class_enrolled": 25,
+            "status": "active",
+            "enrollment_date": "2024-09-28",
+            "last_update": "2024-03-01"
+        }
+    }
+]

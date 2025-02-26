@@ -1,0 +1,552 @@
+[
+    {
+        "model": "authentication.Class",
+        "pk": 1,
+        "fields": {
+            "class_name": "Lớp 1-B",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-11-03",
+            "end_date": "2024-11-02",
+            "teacher": 1
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 2,
+        "fields": {
+            "class_name": "Lớp 2-C",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-06-02",
+            "end_date": "2025-06-02",
+            "teacher": 2
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 3,
+        "fields": {
+            "class_name": "Lớp 5-D",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-03-24",
+            "end_date": "2024-03-23",
+            "teacher": 3
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 4,
+        "fields": {
+            "class_name": "Lớp 10-C",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-12-07",
+            "end_date": "2024-12-06",
+            "teacher": 4
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 5,
+        "fields": {
+            "class_name": "Lớp 7-D",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2024-10-23",
+            "end_date": "2025-10-23",
+            "teacher": 5
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 6,
+        "fields": {
+            "class_name": "Lớp 4-C",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-04-24",
+            "end_date": "2025-04-24",
+            "teacher": 6
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 7,
+        "fields": {
+            "class_name": "Lớp 1-C",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-09-13",
+            "end_date": "2024-09-12",
+            "teacher": 7
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 8,
+        "fields": {
+            "class_name": "Lớp 12-C",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-04-07",
+            "end_date": "2024-04-06",
+            "teacher": 8
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 9,
+        "fields": {
+            "class_name": "Lớp 5-A",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-03-26",
+            "end_date": "2024-03-25",
+            "teacher": 9
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 10,
+        "fields": {
+            "class_name": "Lớp 5-A",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-11-28",
+            "end_date": "2025-11-28",
+            "teacher": 10
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 11,
+        "fields": {
+            "class_name": "Lớp 2-C",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-05-05",
+            "end_date": "2024-05-04",
+            "teacher": 11
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 12,
+        "fields": {
+            "class_name": "Lớp 9-B",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2024-08-07",
+            "end_date": "2025-08-07",
+            "teacher": 12
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 13,
+        "fields": {
+            "class_name": "Lớp 9-B",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-10-04",
+            "end_date": "2024-10-03",
+            "teacher": 13
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 14,
+        "fields": {
+            "class_name": "Lớp 1-B",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-12-19",
+            "end_date": "2024-12-18",
+            "teacher": 14
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 15,
+        "fields": {
+            "class_name": "Lớp 6-B",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-12-12",
+            "end_date": "2025-12-12",
+            "teacher": 15
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 16,
+        "fields": {
+            "class_name": "Lớp 6-B",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-12-25",
+            "end_date": "2025-12-25",
+            "teacher": 16
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 17,
+        "fields": {
+            "class_name": "Lớp 3-A",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-03-31",
+            "end_date": "2025-03-31",
+            "teacher": 17
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 18,
+        "fields": {
+            "class_name": "Lớp 1-B",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-06-06",
+            "end_date": "2024-06-05",
+            "teacher": 18
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 19,
+        "fields": {
+            "class_name": "Lớp 6-D",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-05-13",
+            "end_date": "2024-05-12",
+            "teacher": 19
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 20,
+        "fields": {
+            "class_name": "Lớp 8-D",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2024-11-14",
+            "end_date": "2025-11-14",
+            "teacher": 20
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 21,
+        "fields": {
+            "class_name": "Lớp 6-A",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-04-21",
+            "end_date": "2024-04-20",
+            "teacher": 21
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 22,
+        "fields": {
+            "class_name": "Lớp 8-D",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-12-26",
+            "end_date": "2024-12-25",
+            "teacher": 22
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 23,
+        "fields": {
+            "class_name": "Lớp 4-A",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-09-11",
+            "end_date": "2024-09-10",
+            "teacher": 23
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 24,
+        "fields": {
+            "class_name": "Lớp 11-C",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2024-01-03",
+            "end_date": "2025-01-02",
+            "teacher": 24
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 25,
+        "fields": {
+            "class_name": "Lớp 6-C",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-02-29",
+            "end_date": "2025-02-28",
+            "teacher": 25
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 26,
+        "fields": {
+            "class_name": "Lớp 5-A",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-04-06",
+            "end_date": "2024-04-05",
+            "teacher": 26
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 27,
+        "fields": {
+            "class_name": "Lớp 7-D",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-07-19",
+            "end_date": "2025-07-19",
+            "teacher": 27
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 28,
+        "fields": {
+            "class_name": "Lớp 2-D",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2024-08-11",
+            "end_date": "2025-08-11",
+            "teacher": 28
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 29,
+        "fields": {
+            "class_name": "Lớp 9-B",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2024-04-21",
+            "end_date": "2025-04-21",
+            "teacher": 29
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 30,
+        "fields": {
+            "class_name": "Lớp 2-A",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-03-19",
+            "end_date": "2024-03-18",
+            "teacher": 30
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 31,
+        "fields": {
+            "class_name": "Lớp 2-C",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-08-30",
+            "end_date": "2024-08-29",
+            "teacher": 31
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 32,
+        "fields": {
+            "class_name": "Lớp 1-A",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-12-30",
+            "end_date": "2024-12-29",
+            "teacher": 32
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 33,
+        "fields": {
+            "class_name": "Lớp 1-D",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-07-20",
+            "end_date": "2025-07-20",
+            "teacher": 33
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 34,
+        "fields": {
+            "class_name": "Lớp 8-C",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-11-18",
+            "end_date": "2024-11-17",
+            "teacher": 34
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 35,
+        "fields": {
+            "class_name": "Lớp 3-B",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-04-17",
+            "end_date": "2024-04-16",
+            "teacher": 35
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 36,
+        "fields": {
+            "class_name": "Lớp 7-A",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-06-29",
+            "end_date": "2024-06-28",
+            "teacher": 36
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 37,
+        "fields": {
+            "class_name": "Lớp 4-A",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2024-08-16",
+            "end_date": "2025-08-16",
+            "teacher": 37
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 38,
+        "fields": {
+            "class_name": "Lớp 10-A",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-07-24",
+            "end_date": "2024-07-23",
+            "teacher": 38
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 39,
+        "fields": {
+            "class_name": "Lớp 12-A",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-08-06",
+            "end_date": "2024-08-05",
+            "teacher": 39
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 40,
+        "fields": {
+            "class_name": "Lớp 5-C",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-10-04",
+            "end_date": "2025-10-04",
+            "teacher": 40
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 41,
+        "fields": {
+            "class_name": "Lớp 9-B",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2024-05-22",
+            "end_date": "2025-05-22",
+            "teacher": 41
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 42,
+        "fields": {
+            "class_name": "Lớp 1-A",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-11-11",
+            "end_date": "2025-11-11",
+            "teacher": 42
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 43,
+        "fields": {
+            "class_name": "Lớp 7-C",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2024-12-30",
+            "end_date": "2025-12-30",
+            "teacher": 43
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 44,
+        "fields": {
+            "class_name": "Lớp 8-B",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-07-27",
+            "end_date": "2024-07-26",
+            "teacher": 44
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 45,
+        "fields": {
+            "class_name": "Lớp 1-B",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-07-06",
+            "end_date": "2024-07-05",
+            "teacher": 45
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 46,
+        "fields": {
+            "class_name": "Lớp 5-A",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-04-14",
+            "end_date": "2024-04-13",
+            "teacher": 46
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 47,
+        "fields": {
+            "class_name": "Lớp 9-D",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-08-01",
+            "end_date": "2024-07-31",
+            "teacher": 47
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 48,
+        "fields": {
+            "class_name": "Lớp 11-B",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-02-28",
+            "end_date": "2024-02-28",
+            "teacher": 48
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 49,
+        "fields": {
+            "class_name": "Lớp 11-A",
+            "schedule": "Thứ 3, Thứ 5, Thứ 7",
+            "start_date": "2023-08-11",
+            "end_date": "2024-08-10",
+            "teacher": 49
+        }
+    },
+    {
+        "model": "authentication.Class",
+        "pk": 50,
+        "fields": {
+            "class_name": "Lớp 8-C",
+            "schedule": "Thứ 2, Thứ 4, Thứ 6",
+            "start_date": "2023-12-27",
+            "end_date": "2024-12-26",
+            "teacher": 50
+        }
+    }
+]
