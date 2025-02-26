@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authentication',
     'rest_framework',
+    'django_google_sso',
    
 ]
 
@@ -65,29 +66,34 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 # Database
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
-DATABASES = {
-    "default": {
-        "ENGINE": os.getenv('DB_ENGINE'),
-        "NAME": os.getenv('DB_NAME'),
-        "USER": os.getenv('DB_USER'),
-        "PASSWORD": os.getenv('DB_PASSWORD'),
-        "HOST": os.getenv('DB_HOST'),
-        "PORT": os.getenv('DB_PORT'),
-    }
-}  
+# DATABASES = {
+#     "default": {
+#         "ENGINE": os.getenv('DB_ENGINE'),
+#         "NAME": os.getenv('DB_NAME'),
+#         "USER": os.getenv('DB_USER'),
+#         "PASSWORD": os.getenv('DB_PASSWORD'),
+#         "HOST": os.getenv('DB_HOST'),
+#         "PORT": os.getenv('DB_PORT'),
+#     }
+# }  
 
+GOOGLE_SSO_CLIENT_ID = os.getenv('GOOGLE_SSO_CLIENT_ID')
+GOOGLE_SSO_PROJECT_ID = os.getenv('GOOGLE_SSO_PROJECT_ID')
+GOOGLE_SSO_CLIENT_SECRET = os.getenv('GOOGLE_SSO_CLIENT_SECRET')
+
+GOOGLE_SSO_ALLOWABLE_DOMAINS = ["gmail.com"]
 
 
 AUTH_PASSWORD_VALIDATORS = [

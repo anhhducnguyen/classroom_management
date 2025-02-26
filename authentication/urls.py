@@ -9,8 +9,10 @@ router.register(r'classes', ClassViewSet, basename="class")
 router.register(r'schedules', ScheduleViewSet, basename="schedule")
 
 urlpatterns = [
-    path('api/', include(router.urls)),  # Endpoint chính
-    # path('test-static/', views.test_static, name='test_static'),
+    path('api/', include(router.urls)), 
     path('', views.test_static, name='home'),
     path("api/schedules/", views.schedule_list, name="schedule_list"),
+    path(
+    "google_sso/", include("django_google_sso.urls", namespace="django_google_sso")
+    ),
 ]
