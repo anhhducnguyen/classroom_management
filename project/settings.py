@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     'authentication',
     'rest_framework',
     'django_google_sso',
-   
+    'unfold.contrib.filters',
 ]
 
 MIDDLEWARE = [

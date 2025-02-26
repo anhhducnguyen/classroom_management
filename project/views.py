@@ -9,9 +9,11 @@ from unfold.views import UnfoldModelAdminViewMixin
 from django.db.models import Avg, Sum
 
 from django.contrib.auth.models import User
+from authentication.models import Class
 
 
-
+user_count = User.objects.count()
+class_count = Class.objects.count()
 
 class HomeView(RedirectView):
     pattern_name = "admin:index"
@@ -56,8 +58,8 @@ def dashboard_callback(request, context):
             ],
             "kpi": [
                 {
-                    "title": "Total Registered Users",
-                    "metric": "$1,234.56",
+                    "title": "Total Users",
+                    "metric": f"{user_count}",
                     "footer": mark_safe(
                         f'<strong class="text-green-700 font-semibold dark:text-green-400">+{intcomma(f"{random.uniform(1, 9):.02f}")}%</strong>&nbsp;progress from last week'
                     ),
@@ -69,8 +71,8 @@ def dashboard_callback(request, context):
                     ),
                 },
                 {
-                    "title": "Total Salary",
-                    "metric": "$1,234.56",
+                    "title": "Total Class",
+                    "metric": f"{class_count}",
                     "footer": mark_safe(
                         f'<strong class="text-green-700 font-semibold dark:text-green-400">+{intcomma(f"{random.uniform(1, 9):.02f}")}%</strong>&nbsp;progress from last week'
                     ),

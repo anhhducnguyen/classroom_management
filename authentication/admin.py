@@ -9,21 +9,41 @@ from authentication.sites import authentication_admin_site
 from django.contrib.auth.admin import GroupAdmin as BaseGroupAdmin
 from django.utils.timezone import now, timedelta
 from unfold.components import BaseComponent, register_component
+from django.utils.html import mark_safe
 from unfold.admin import ModelAdmin
-from unfold.contrib.filters.admin import (
-    ChoicesDropdownFilter,
-    RangeDateFilter,
-    RangeNumericFilter,
-    SingleNumericFilter,
-    TextFilter,
-)
+from unfold.contrib.filters.admin import RangeDateFilter, FieldTextFilter, ChoicesDropdownFilter, TextFilter
+from django.db.models import Q
 from django.core.validators import EMPTY_VALUES
+from unfold.admin import TabularInline
+
+class FullNameFilter(TextFilter):
+    title = ("username")
+    parameter_name = "username"
+
+    def queryset(self, request, queryset):
+        if self.value() in EMPTY_VALUES:
+            return queryset
+
+        return queryset.filter(
+            Q(first_name__icontains=self.value()) | Q(last_name__icontains=self.value())
+        )
+
+def display_picture(self, obj):
+        if obj.picture:
+            return mark_safe(f'<img src="{obj.picture.url}" style="width: 70px; height: 70px; border-radius: 50%;" />')
+        return '-'
 
 @admin.register(StudentUser)
 class StudentUserAdmin(unfold_admin.ModelAdmin):
     list_display = ("full_name", "student_code", "birth_date", "current_school")
     search_fields = ("full_name", "student_code", "current_school")
-    list_filter = ("current_school", "birth_date", "full_name")
+    # list_filter = ("current_school", "birth_date", "full_name")
+    list_filter_submit = True
+    list_filter = (
+        ("full_name", FieldTextFilter),
+        ("birth_date", RangeDateFilter),
+        ("current_school", FieldTextFilter),
+    )
 
 @admin.register(Class)
 class ClassAdmin(unfold_admin.ModelAdmin):
@@ -47,9 +67,13 @@ class ScheduleAdmin(unfold_admin.ModelAdmin):
 
 class CustomUserAdmin(ModelAdmin):
     list_display = ('username', 'email', 'date_joined', 'is_active', 'is_staff', 'is_superuser')
-    list_filter = ('username', 'email', 'is_active', 'is_staff', 'is_superuser')
+    # list_filter = ('username', 'email', 'is_active', 'is_staff', 'is_superuser')
     search_fields = ('username', 'email')
 
+    list_filter = [
+        FullNameFilter,
+        ("is_active", ChoicesDropdownFilter),
+    ]
     list_filter_submit = True
     list_fullwidth = True
 
@@ -75,8 +99,11 @@ class CustomUserAdmin(ModelAdmin):
     @display(description=("Created"))
     def display_created(self, instance: User):
         return instance.created_at
-
-from unfold.admin import TabularInline
+    
+    def save_model(self, request, obj, form, change):
+        if form.cleaned_data.get("password"):
+            obj.set_password(form.cleaned_data["password"])  # Đảm bảo mã hóa mật khẩu
+        super().save_model(request, obj, form, change)
 
 
 class MyInline(TabularInline):
@@ -86,8 +113,6 @@ class MyInline(TabularInline):
 @admin.register(Group, site=authentication_admin_site)
 class CustomGroupAdmin(BaseGroupAdmin, ModelAdmin):
     pass
-
-
 
 
 @register_component
