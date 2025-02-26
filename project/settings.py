@@ -12,23 +12,13 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-%yq+)mz^empjk_m3-x8^2oi@0azw1z67h^u&6bn6rf0+_fw6+i'
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-
-# Application definition
 
 INSTALLED_APPS = [
     'unfold',
@@ -74,7 +64,6 @@ WSGI_APPLICATION = 'project.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 # DATABASES = {
 #     'default': {
@@ -88,9 +77,6 @@ import os
 
 load_dotenv()
 
-# ________________________________________
-# connect aiven.io or mysql 
-# ________________________________________
 DATABASES = {
     "default": {
         "ENGINE": os.getenv('DB_ENGINE'),
@@ -103,8 +89,6 @@ DATABASES = {
 }  
 
 
-# Password validation
-# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -122,20 +106,113 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
-# https://docs.djangoproject.com/en/5.0/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'Asia/Ho_Chi_Minh'
+LANGUAGE_CODE = 'en'
+
+
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
 USE_TZ = True
 
+LANGUAGES = [
+    ('en', 'English'),
+    ('de', 'German'),
+    ('vi', 'Vietnamese'),
+    ('fr', 'French'),
+]
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.0/howto/static-files/
+DATE_INPUT_FORMATS = [
+    "%d.%m.%Y",  # Custom input
+    "%Y-%m-%d",  # '2006-10-25'
+    "%m/%d/%Y",  # '10/25/2006'
+    "%m/%d/%y",  # '10/25/06'
+    "%b %d %Y",  # 'Oct 25 2006'
+    "%b %d, %Y",  # 'Oct 25, 2006'
+    "%d %b %Y",  # '25 Oct 2006'
+    "%d %b, %Y",  # '25 Oct, 2006'
+    "%B %d %Y",  # 'October 25 2006'
+    "%B %d, %Y",  # 'October 25, 2006'
+    "%d %B %Y",  # '25 October 2006'
+    "%d %B, %Y",  # '25 October, 2006'
+]
+
+DATETIME_INPUT_FORMATS = [
+    "%d.%m.%Y %H:%M:%S",  # Custom input
+    "%Y-%m-%d %H:%M:%S",  # '2006-10-25 14:30:59'
+    "%Y-%m-%d %H:%M:%S.%f",  # '2006-10-25 14:30:59.000200'
+    "%Y-%m-%d %H:%M",  # '2006-10-25 14:30'
+    "%m/%d/%Y %H:%M:%S",  # '10/25/2006 14:30:59'
+    "%m/%d/%Y %H:%M:%S.%f",  # '10/25/2006 14:30:59.000200'
+    "%m/%d/%Y %H:%M",  # '10/25/2006 14:30'
+    "%m/%d/%y %H:%M:%S",  # '10/25/06 14:30:59'
+    "%m/%d/%y %H:%M:%S.%f",  # '10/25/06 14:30:59.000200'
+    "%m/%d/%y %H:%M",  # '10/25/06 14:30'
+]
+
+
+from django.templatetags.static import static
+from django.urls import reverse_lazy
+from django.utils.translation import gettext_lazy as _
+
+UNFOLD = {
+    "DASHBOARD_CALLBACK": "project.views.dashboard_callback",   
+    "SITE_SYMBOL": "fingerprint",
+    "SHOW_LANGUAGES": True,
+    "ENVIRONMENT": "authentication.utils.environment_callback",
+
+    "SIDEBAR": {
+        "show_search": True,  
+        "show_all_applications": True,  
+        "navigation": [
+            {
+                "title": _("Navigation"),
+                "separator": True,  
+                "items": [
+                    {
+                        "title": _("Dashboard"),
+                        "icon": "dashboard",  
+                        "link": reverse_lazy("admin:index"),
+                        "permission": lambda request: request.user.is_superuser,
+                    },
+                    {
+                        "title": _("Student"),
+                        "icon": "school",  
+                        "link": reverse_lazy("admin:authentication_studentuser_changelist"),
+                    },  
+                    {
+                        "title": _("Class"),
+                        "icon": "meeting_room",  
+                        "link": reverse_lazy("admin:authentication_class_changelist"),
+                    },  
+                    {
+                        "title": _("Schedule"),
+                        "icon": "calendar_month",   
+                        "link": reverse_lazy("admin:authentication_schedule_changelist"),
+                        "permission": lambda request: request.user.is_superuser,
+                    },         
+                ],
+            },
+            {
+                "title": _("Users & Groups"),
+                "collapsible": True,
+                "items": [
+                    {
+                        "title": _("Users"),
+                        "icon": "person",
+                        "link": reverse_lazy("admin:auth_user_changelist"),
+                    },
+                    {
+                        "title": _("Groups"),
+                        "icon": "group",
+                        "link": reverse_lazy("admin:auth_group_changelist"),
+                    },                
+                ],
+            },
+        ],
+    },
+}
 
 import os
 
@@ -144,14 +221,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),  # Đảm bảo dòng này có
+    os.path.join(BASE_DIR, "static"), 
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-
-# Default primary key field type
-# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
