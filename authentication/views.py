@@ -20,7 +20,8 @@ def home(request):
     return render(request, "authentication/signin.html")
 
 def home_page(request):
-    return render(request, "authentication/index.html")
+    fname = request.session.get('fname', '') 
+    return render(request, "authentication/index.html", {'fname': fname})
 
 def signup(request):
     if request.method == "POST":
@@ -78,7 +79,7 @@ def signup(request):
             settings.EMAIL_HOST_USER,
             [myuser.email],
         )
-        email.content_subtype = "html"  # Set email format to HTML
+        email.content_subtype = "html"
         email.fail_silently = True
         email.send()
         
@@ -96,7 +97,6 @@ def activate(request,uidb64,token):
 
     if myuser is not None and generate_token.check_token(myuser,token):
         myuser.is_active = True
-        # user.profile.signup_confirmation = True
         myuser.save()
         login(request,myuser)
         messages.success(request, "Your Account has been activated!!")
@@ -113,12 +113,11 @@ def signin(request):
         
         if user is not None:
             login(request, user)
-            fname = user.first_name
-            # messages.success(request, "Logged In Sucessfully!!")
-            return redirect('home_page')  # Chuyển hướng đến trang chủ sau khi đăng nhập thành công
+            request.session['fname'] = user.first_name
+            return redirect('home_page')  
         else:
             messages.error(request, "Bad Credentials!!")
-            return redirect('signin')  # Chuyển hướng lại trang đăng nhập nếu thông tin không hợp lệ
+            return redirect('signin') 
     
     return render(request, "authentication/signin.html")
 
@@ -169,9 +168,6 @@ class ScheduleViewSet(viewsets.ModelViewSet):
             return Response(serializer.data)
         except StudentUser.DoesNotExist:
             return Response({"error": "Học viên không tồn tại"}, status=404)
-
-# def test_static(request):
-#     return render(request, 'index.html')
 
 def schedule_list(request):
     schedules = Schedule.objects.all().values(
