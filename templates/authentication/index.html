@@ -48,8 +48,8 @@
           <path d="M3 10h18" />
         </svg>
         {% if user.is_authenticated %}
-        <h3>Hello {{fname}}!</h3>
-        <span type="submit"><a href="/signout">Đăng xuất</a></span>
+        <span>{{fname}}</span>
+        <span type="submit"><a href="/signout">Signout</a></span>
         {% else %}
         <button type="submit"><a href="/signup">SignUp</a></button>
         <br/>
