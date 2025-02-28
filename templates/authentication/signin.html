@@ -17,22 +17,19 @@
     <script title="OnlineWebFonts" src="https://db.onlinewebfonts.com/animations/icons/569117.js" type="text/javascript"></script>
     <style>
         .div {
-            width: 500px; /* Điều chỉnh kích thước theo ý muốn */
+            width: 500px; 
             height: 500px;
             display: inline-block;
         }
     </style>
   </head>
-  <body>
-    <!-- Sử dụng class để hiển thị animation -->
-    
-
+  <body> 
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
           <form action="/signin" method="post" class="sign-in-form" id="loginForm"  autocomplete="off">
             <img style="margin-bottom: 20px;" src="{%static 'assets/images/logo-phenikaa-uni-02.png' %}" class="image" alt="" />
-            <h2 class="title">Smart lock system</h2>
+            <h2 class="title">Academy Manager</h2>
             {% csrf_token %}
              {% if messages %}
                  {% for message in messages %}
@@ -56,10 +53,6 @@
                    {% csrf_token %}
                    <input type="hidden" id="is_superuser" name="is_superuser">
                    <div class="select-menu">
-                       <!-- <div class="select-btn">
-                           <span class="sBtn-text">Chọn vai trò của bạn</span>
-                           <i class="fa-solid fa-circle-chevron-down fa-2xs" style="color: #06204b;"></i>
-                       </div> -->
                        <ul class="options">
                            <li class="option" data-value="student">
                                <i class="bx bxl-github" style="color: #171515;"></i>
@@ -99,7 +92,7 @@
                     </a>
                    </div>
                  <a class="password-reset" href="/password_reset/">Forgot password</a>
-                 <p class="copyright-text">Copyright © 2024. Phenikaa University. All rights. Developed by PHX Smart School</p>
+                 <p class="copyright-text">Copyright © 2024. Academy Manager. All rights. Developed by Academy Manager</p>
              </div>
           </form>
 
@@ -150,24 +143,14 @@
       <div class="panels-container">
         <div class="panel left-panel">
           <div class="content">
-            <h3>Welcome to Smart lock system !</h3>
+            <h3>Welcome to Academy Manager</h3>
             <p>
-              Our advanced smart lock solutions provide enhanced security and convenience, allowing you to manage access effortlessly while keeping your property safe.
-            </p>
+              With a mission to provide quality education, Academy Manager takes pride in training thousands of students through innovative methods, expert faculty, and a structured curriculum. We are committed to supporting each student’s growth and success.            </p>
             <button style="line-height: 0.9rem;" class="btn transparent" id="sign-up-btn">
                 <a href="/signup" style="text-decoration: none; color: white;">Sign up</a>
             </button>
           </div>
-          <!-- <img style="height: 800px; width: 870px;" src="{%static 'assets/images/Parking.svg' %}" class="image" alt="" /> -->
-          <!-- <div class="div"></div>
-
-          <script>
-              // Chạy animation với class "div"
-              OnlineWebFonts_Com({
-                  'Id': '.div',
-                  'Data': __Animations['569117'],
-              }).Play();
-          </script> -->
+          <img style="height: 800px; width: 870px;" src="{%static 'assets/images/register.svg' %}" class="image" alt="" />
         </div>
         <div class="panel right-panel">
           <div class="content">
