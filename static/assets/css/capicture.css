@@ -1,0 +1,134 @@
+/* Tổng thể */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1746ab;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Phần container tổng */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Style cho input nhập tên */
+input[type="text"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 16px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #1746ab;
+    outline: none;
+}
+
+/* Style cho video */
+#video {
+    width: 640px;
+    height: 480px;
+    border-radius: 8px;
+    border: 4px solid #1746ab;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Nút bấm */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1746ab;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #1550d6;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #123ea0;
+    transform: translateY(0);
+}
+
+/* Ảnh đã chụp */
+#photo {
+    margin-top: 20px;
+    width: 320px;
+    height: 240px;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+}
+
+/* Form upload ảnh */
+form {
+    margin-top: 20px;
+}
+
+/* Nút submit */
+form button[type="submit"] {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+form button[type="submit"]:active {
+    background-color: #1e7e34;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #video {
+        width: 100%;
+        height: auto;
+    }
+
+    #photo {
+        width: 100%;
+        height: auto;
+    }
+
+    input[type="text"], button {
+        width: 100%;
+    }
+}

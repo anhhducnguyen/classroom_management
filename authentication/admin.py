@@ -15,6 +15,11 @@ from unfold.contrib.filters.admin import RangeDateFilter, FieldTextFilter, Choic
 from django.db.models import Q
 from django.core.validators import EMPTY_VALUES
 from unfold.admin import TabularInline
+import openpyxl
+from django.http import HttpResponse
+from django.contrib import messages
+
+
 
 class FullNameFilter(TextFilter):
     title = ("username")
@@ -37,13 +42,33 @@ def display_picture(self, obj):
 class StudentUserAdmin(unfold_admin.ModelAdmin):
     list_display = ("full_name", "student_code", "birth_date", "current_school")
     search_fields = ("full_name", "student_code", "current_school")
-    # list_filter = ("current_school", "birth_date", "full_name")
     list_filter_submit = True
     list_filter = (
         ("full_name", FieldTextFilter),
         ("birth_date", RangeDateFilter),
         ("current_school", FieldTextFilter),
     )
+
+    actions = ['export_to_excel']
+
+    def export_to_excel(self, request, queryset):
+        wb = openpyxl.Workbook()
+        ws = wb.active
+        ws.title = 'Student Data'
+
+        ws.append(['Họ và tên', 'Mã học viên', 'Ngày sinh', 'Trường đang học hiện tại'])
+
+        for student in queryset:
+            ws.append([student.full_name, student.student_code, student.birth_date, student.current_school])
+
+        response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+        response['Content-Disposition'] = 'attachment; filename=selected_student.xlsx'
+
+        wb.save(response)
+        self.message_user(request, f"{queryset.count()} student have been exported to Excel", messages.SUCCESS)
+        return response
+
+    export_to_excel.short_description = "Export selected student to Excel"
 
 @admin.register(Class)
 class ClassAdmin(unfold_admin.ModelAdmin):

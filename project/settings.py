@@ -11,6 +11,18 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+from . info import *
+
+# ________________________________________
+# fix public-leak-secret send mail
+# ________________________________________
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_USE_TLS = EMAIL_USE_TLS
+EMAIL_HOST = EMAIL_HOST
+EMAIL_HOST_USER = EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD = EMAIL_HOST_PASSWORD
+EMAIL_PORT = EMAIL_PORT
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -18,7 +30,11 @@ SECRET_KEY = 'django-insecure-%yq+)mz^empjk_m3-x8^2oi@0azw1z67h^u&6bn6rf0+_fw6+i
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'project-1233-6f93642d7963.herokuapp.com',
+    '127.0.0.1',
+    'localhost',
+    ]
 
 INSTALLED_APPS = [
     'unfold',
@@ -93,6 +109,9 @@ GOOGLE_SSO_CLIENT_ID = os.getenv('GOOGLE_SSO_CLIENT_ID')
 GOOGLE_SSO_PROJECT_ID = os.getenv('GOOGLE_SSO_PROJECT_ID')
 GOOGLE_SSO_CLIENT_SECRET = os.getenv('GOOGLE_SSO_CLIENT_SECRET')
 
+# ________________________________________
+# send mail
+# ________________________________________
 GOOGLE_SSO_ALLOWABLE_DOMAINS = ["gmail.com"]
 
 
